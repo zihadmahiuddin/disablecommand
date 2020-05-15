@@ -1,0 +1,24 @@
+name: disablecommand
+main: cf.zihad.disablecommand.Plugin
+version: 1.0-SNAPSHOT
+commands:
+  disableCmd:
+    description: A command that disables and enables other commands
+    usage: /<command> commandName
+    aliases: [dCmd]
+    permission: disablecommand.usage
+  disabledCmds:
+    description: A command that lists the disabled commands
+    usage: /<command>
+    aliases: [dCmds]
+    permission: disablecommand.usage
+  reloadConfig:
+    description: A command that reloads the disabled commands from config.yml
+    usage: /<command>
+    aliases: [rConf]
+    permission: disablecommand.usage
+permissions:
+  usage:
+    default: op
+    description: Allows you to use the commands that come from the disablecommand plugin
+api-version: "1.14"

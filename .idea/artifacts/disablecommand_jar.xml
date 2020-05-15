@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="disablecommand:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/disablecommand_jar</output-path>
+    <root id="archive" name="disablecommand.jar">
+      <element id="module-output" name="disablecommand" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/spigot-api-1.14.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
